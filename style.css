@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 370px;
+    height: 400px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    background-color: #363636;
+    padding: 0px 30px 0px 30px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.header {
+    width: 200px;
+    padding: 18px;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 25px;
+    background-color: #363636;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.subtitulo {
+    padding: 12px 0px;
+    font-size: 15px;
+    color: #fff;
+    margin: 5px;
+}
+
+.campo {
+    padding: 12px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F3;
+}
+
+button {
+    padding: 12px;
+    font-size: 15px;
+    background-color: #F0F0F3;
+    color: #4a5568;
+    border: 0px;
+    border-radius: 30px;
+    margin: 35px 0px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #b1b1b1;
+    text-shadow: none;
+}
+
+
+#result {
+    text-align: center;
+    color: #fff;
+}
